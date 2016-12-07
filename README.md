@@ -30,7 +30,7 @@ echo '[merge "words"]
 ```
 
 Specify which files should use the alternate merge drivers in .git/info/attributes.
-For example, this will cause .txt files to use character-by-character merging,
+For example, this will cause .xml files to use character-by-character merging,
 and .txt files to use word-by-word merging:
 
 ```
