@@ -1,0 +1,23 @@
+{
+  "name": "git-merge-tokenize",
+  "version": "0.0.1",
+  "description": "Git merge driver using arbitrary tokenizer instead of linebreaks",
+  "main": "merge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Cushman",
+  "license": "ISC",
+  "bin": {
+    "git-merge-tokenize": "bin/git-merge-tokenize.js"
+  },
+  "dependencies": {
+    "diff-match-patch": "^1.0.0",
+    "ot": "github:operational-transformation/ot.js",
+    "yargs": "^6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcushman/git-merge-tokenize.git"
+  }
+}
